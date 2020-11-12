@@ -1,0 +1,78 @@
+.register-page {
+    background-color: $color-orange;
+
+    .page-content-container {
+
+        .register-item {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 600px;
+            padding: 50px;
+            background-color: $color-white;
+
+            h2 {
+                margin-bottom: 30px;
+                font-size: 50px;
+                text-align: center;
+            }
+
+            strong {
+                color: $color-red;
+            }
+
+            form {
+                // border: solid 2px $color-green;
+                width: 80%;
+
+                .form-input {
+                    display: flex;
+                    flex-direction: column;
+                    margin: 20px 0px;
+
+                    label {
+                        font-weight: 700;
+                        color: $color-orange;
+                        text-align: left;
+                    }
+
+                    input {
+                        padding: 10px 20px;
+                        background-color: $color-white;
+                        border: solid 1px #1212127e;
+                        border-radius: 2px;
+                        outline: none;
+                    }
+
+                    button {
+                        background-color: $color-orange;
+                        border: none;
+                        color: $color-white;
+                        padding: 10px 20px;
+                        border-radius: 2px;
+
+                        &:hover {
+                            background-color: $color-black;
+                            transition: .3s ease-in-out;
+                        }
+                    }
+                }
+            }
+
+            .register-cta {
+                color: $color-orange;
+                align-items: center;
+            }
+
+            &-img {
+                background-color: $color-orange;
+                
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,62 @@
+
+
+    .add-recipe-info {
+        background-color: $color-orange;
+        color: $color-white;
+        padding: 40px 20px;
+        width: 100%;
+    }
+
+    form {
+        color: $color-black;
+        font-family: "Roboto";
+        
+        .form-segment {
+            margin-bottom: 50px;
+            display: flex;
+            flex-direction: column;
+
+            #title, #imageUrl {
+                padding: 10px 0 10px 10px;
+                background-color: $color-white;
+                border: none;
+                border-bottom: solid 2px $color-orange;
+                font-size: 30px;
+                outline: none;
+            }
+
+            textarea {
+                padding: 10px 0 10px 10px;
+                height: 200px;
+                border: solid 2px $color-orange;
+                background-color: $color-white;
+                outline: none;
+            }
+
+            label {
+                font-size: 20px;
+            }
+
+            #imageUrl {
+                font-size: 18px;
+            }
+
+            select {
+                width: 200px;
+                border: none;
+                padding: 10px 12px;
+                font-family: 'Roboto';
+                font-size: 20px;
+                font-weight: 700;
+                background-color: $color-white;
+                border-radius: 8px;
+                color: $color-orange;
+                box-shadow: 0px 0px 1px 0px rgba(0,0,0,.5);
+                outline: none;
+            }
+        }
+
+        .button-long-color {
+            border: none;
+        }
+    }

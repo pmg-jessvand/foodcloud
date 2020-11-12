@@ -1,0 +1,59 @@
+.recipe-list {
+
+    h1 {
+        color: $color-black;
+        font-weight: 700;
+    }
+
+    .recipe-list-button {
+        a {
+            display: flex;
+            justify-content: flex-end;
+            text-align: right;
+            font-size: 40px;
+            color: $color-orange;
+            text-decoration: none;
+
+            &:hover {
+                color: $color-black;
+                transition: .3s;
+            }
+        }
+    }
+
+    
+
+    .recipe-card {
+        display: flex;
+        height: 8rem;
+        margin: 1rem 0;
+        background-color: $color-orange;
+        border-radius: 10px;
+        text-decoration: none;
+
+        &-img {
+            height: 100%;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                display: block;
+            }
+
+        }
+
+        &-info {
+            color: $color-white;
+            height: 100%;
+            font-size: 16px;
+            font-weight: 700;
+            padding: 10px 50px 0px 10px;
+        }
+
+        &:hover {
+            transform: scale(1.1);
+            transition: .3s;
+        }
+    }
+}

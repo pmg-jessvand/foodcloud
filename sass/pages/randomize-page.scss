@@ -1,0 +1,29 @@
+.randomize-page{
+    background-color: $color-orange;
+
+    .hero-image-container {
+        width: 60%;
+        margin: 0 auto;
+
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+
+        h2 {
+            padding: 15px;
+            text-align: center;
+            background-color: $color-white;
+        }
+    }
+
+    .hero-button-container {
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        font-weight: 700;
+    }
+
+}

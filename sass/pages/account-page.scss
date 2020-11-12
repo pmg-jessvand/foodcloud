@@ -1,0 +1,20 @@
+.account-page {
+
+    h2 {
+        margin-bottom: 20px;
+    }
+    
+    .details-container {
+        margin-bottom: 50px;
+
+        .detail-item {
+            margin: 10px 0px;
+            padding: 0;
+        }
+    }
+
+    .account-recipe-list-container {
+        border: solid 2px $color-green;
+        margin: 0;
+    }
+}

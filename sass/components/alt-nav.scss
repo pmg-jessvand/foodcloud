@@ -1,0 +1,20 @@
+.alt-nav-bar {
+    background-color: $color-orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald';
+    font-size: 20px;
+    color: $color-white;
+    padding: 20px 0;
+
+    .nav-item {
+        display: flex;
+        justify-content: center;
+
+        img {
+            width: 200px;
+        }
+
+    }
+}

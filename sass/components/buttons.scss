@@ -1,0 +1,55 @@
+.button-long {
+    text-decoration: none;
+    font-size: 20px;
+    padding: .5rem 2rem;
+    border-radius: 30px;
+
+    background-color: $color-white;
+    color: $color-orange;
+
+    &:hover {
+        background: $color-black;
+        color: $color-white;
+        text-decoration: none;
+        transition: .3s;
+    }
+
+    &-color {
+        text-decoration: none;
+        font-size: 20px;
+        padding: .5rem 2rem;
+        border-radius: 30px;
+
+        background-color: $color-orange;
+        color: $color-white;
+
+        &:hover {
+            background: $color-black;
+            color: $color-white;
+            text-decoration: none;
+            transition: .3s;
+        }
+    }
+}
+
+.button-round {
+    background-color: $color-orange;
+    border: none;
+    color: $color-black;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 10px 0px;
+
+    &:hover {
+        background-color: $color-black;
+        transition: .3s ease-in-out;
+    }
+
+    &-reverse {
+        background-color: $color-black;
+        border: none;
+        color: $color-orange;
+        border-radius: 8px;
+        margin: 10px 0px;
+    }
+}

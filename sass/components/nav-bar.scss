@@ -1,0 +1,86 @@
+.nav-bar {
+    background-color: $color-orange;
+    display: flex;
+    align-items: center;
+    font-family: 'Oswald';
+    font-size: 20px;
+    color: $color-white;
+    padding: 20px 0;
+
+    .container {
+
+        .row {
+            align-items: center;
+
+            .nav-item {
+
+                &-logo {
+                    
+                    img {
+                        width: 200px;
+                    }
+                }
+
+                &-links {
+                    
+                    ul {
+                        display: flex;
+                        list-style: none;
+                        margin: 0;
+                        justify-content: center;
+
+                        a {
+                            color: $color-white;
+                            text-decoration: none;
+                            padding: 5px 10px;
+                            margin: 0 10px;
+
+                            &:hover {
+                                color: $color-black;
+                                border-bottom: solid 2px $color-black;
+                                transition: .3s;
+                            }
+                        }
+                    }
+                    
+                }
+
+                &-account {
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+
+                    .account-button {
+                        display: flex;
+                        align-items: center;
+                        text-decoration: none;
+                        color: $color-white;
+                        border: solid 2px $color-orange;
+                        padding: 5px;
+                        border-radius: 50px;
+
+                        &:hover {
+                            border: solid 2px $color-white;
+                            transition: .3s;
+                        }
+                    
+                        img {
+                            width: 50px;
+                        }
+                    }
+
+                    .logoff {
+                        color: $color-black;
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .nav-item {
+        text-align: center;
+    }
+  }
